@@ -1,11 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Open Sans", sans-serif;
 }
+
 
 #page {
   /* width: 100%;
   height: auto; */
   margin: 88px 80px 137px 80px;
+  max-width: 1120px;
+  max-width: 3054px;
+  
 }
 
 .headline {
@@ -41,7 +50,7 @@ img {
 .divider {
     width: 100%;
     height: 1px;
-    margin: 36px 0;
+    margin: 40px 0;
     background-color: #d9d9d9;
     /* border: solid red; */
     /*Criado uma caixa com um fundo, porém diminuido, fazendo parecer uma linha*/
@@ -55,9 +64,10 @@ img {
   }
 
 #imagens {
-  display: grid;
+  /* display: grid; */
   margin-top: 48px;
   margin-bottom: 20px;
+  /* padding-top: 16px; */
 }
 
 h2 + p {
@@ -77,6 +87,8 @@ li {
 
 h3 {
   margin: 0px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 ol {
@@ -90,3 +102,54 @@ ol + p {
 #lugares {
   margin-top: 20px;
 }
+
+.recomendacao {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul{
+  margin-top: 0;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+.História {
+  color: #0C51A7;
+}
+.Casais {
+  color: #591b98;
+}
+.Famílias{
+  color: #e5245e;
+}
+.Orçamento{
+  color: #e95e10;
+}
+
+.Encerramento {
+  text-align: CENTER;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 48px;
+}
+
+
+
